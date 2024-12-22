@@ -1,10 +1,26 @@
+#all-list h1 {
+    text-align: center;
+}
+
+#all-list ul {
+    border: double 10px;
+    margin: 5px;
+}
+
+#all-list ul li {
+    padding: 5px;
+    border: dotted 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
 .recipes-list {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 20px;
 }
 
 .recipes-list.more-size {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .recipes-name {
@@ -32,7 +48,44 @@
 .recipes-ingredient,
 .recipes-step {
     font-size: 28px;
-    font-weight: bold
+    font-weight: bold;
+    padding: 0 0 0 50px;
+}
+
+#pudding p {
+    margin: 10px;
+}
+
+#pudding ul {
+    border: orangered solid 5px;
+} 
+
+#pudding ul li {
+    margin: 5px; 
+}
+
+#scone p {
+    margin: 10px;
+}
+
+#scone ul {
+    border: blue solid 5px;
+} 
+
+#scone ul li {
+    margin: 5px; 
+}
+
+#cheesecake p {
+    margin: 10px;
+}
+
+#cheesecake ul {
+    border: yellowgreen solid 5px;
+} 
+
+#cheesecake ul li {
+    margin: 5px; 
 }
 
 .recipes-description {
@@ -47,3 +100,24 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* 在scone頁面的範例中，透過CSS檔案中class類別來做圖片尺寸設定，可以覆蓋掉HTML檔案中針對image這個標籤的圖片尺寸設定*/
+.scone-img {
+    height: 500px;
+    width: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+.pudding-img {
+    height: 400px;
+    width: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+.cheesecake-img {
+    height: 450px;
+    width: auto;
+    display:block;
+    margin: 0 auto;
+}
